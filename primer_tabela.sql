@@ -1,5 +1,5 @@
 CREATE TABLE DEPT (
-  DNAME VARCHAR(10) NOT NULL,
+  DNAME VARCHAR(10) NOT NULL,/*NOT NULL znaci zadolzitelen atribut, bez nego ne moze da se zacuva*/
   DNUMBER INTEGER NOT NULL,
   MGRSSN CHAR(9),
   MGRSTARTDATE CHAR(9),
